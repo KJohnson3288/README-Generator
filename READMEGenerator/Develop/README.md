@@ -5,7 +5,7 @@
 
 
 ## Table of Contents
-* [Description](#description)
+* [Discription](#discription)
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
@@ -13,7 +13,7 @@
 * [Test](#test)
 * [Questions](#questions)
 
-## Description
+## Discription
 Use Node.js to create a readme.md
 
 ## Installation

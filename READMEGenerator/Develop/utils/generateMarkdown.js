@@ -1,6 +1,8 @@
+// function to generate markdown for README
+function generateMarkdown(response) {
+  return `
 
-
-# README Generator
+# ${response.Title}
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
 
@@ -14,27 +16,30 @@
 * [Questions](#questions)
 
 ## Description
-Use Node.js to create a readme.md
+${response.Discription}
 
 ## Installation
-Clone from my github repo
+${response.Install}
 
 ## Usage
-run node index.js in the terminal
+${response.Usage}
 
 ## License
-No License
+${response.License}
 
 ## Contributors
-None
+${response.Contributors}
 
 ## Test
-run node index.js
+${response.Test}
 
 ## Questions
 If you want to contact me:
 
-Github:[KJohnson3288](https://github.com/KJohnson3288)
+Github:[${response.Github}](https://github.com/KJohnson3288)
 
-Email:[KJohnson3288@yahoo.com](https://github.com/KJohnson3288)
+Email:[${response.Email}](https://github.com/KJohnson3288)
 
+`;}
+
+module.exports = generateMarkdown
